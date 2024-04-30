@@ -15,16 +15,16 @@ The objective of this assignment is to create a shell script that organizes file
 ###Instructions:
 
 ### (a) Create a Shell Script:
-Write a shell script named file_organizer.sh.
+- Write a shell script named file_organizer.sh.
 ### (b) Requirements:
-The script should accept a single argument, which is the directory path to be organized.
-It should organize files in the specified directory based on their file types (e.g., images, documents, videos).
+- The script should accept a single argument, which is the directory path to be organized.
+- It should organize files in the specified directory based on their file types (e.g., images, documents, videos).
 ### (c) Organizing Files:
-Identify different file types (e.g., images, documents, videos) using shell commands such as file or mimetype.
-Create separate directories within the specified directory for each file type (e.g., images, documents, videos).
-Move files into their respective directories based on their file types.
-Handling Existing Directories:
-If directories for specific file types already exist, the script should move files into those directories instead of creating new ones.
-Output:
-After running the script, the specified directory should be organized with files grouped into appropriate directories based on their types.
+- Identify different file types (e.g., images, documents, videos) using shell commands such as file or mimetype.
+- Create separate directories within the specified directory for each file type (e.g., images, documents, videos).
+- Move files into their respective directories based on their file types.
+### (d) Handling Existing Directories:
+- If directories for specific file types already exist, the script should move files into those directories instead of creating new ones.
+### (e) Output:
+- After running the script, the specified directory should be organized with files grouped into appropriate directories based on their types.
 
