@@ -1,25 +1,25 @@
 *Assignments in this class are individual. While you may discuss ideas with others, you must submit your own individual effort.*
 
-## Goal
+# Goal
 
 The goal of this assignment is to gain proficiency in GitHub usage and to acquire basic skills in writing shell scripts.
 
 
-### 1. Authenticate to GitHub from the command line
+## 1. Authenticate to GitHub from the command line
 Follow detailed instructions from the lecture on how to authenticate to GitHub and clone the hw1 repo. After you write the script `hw1.sh`, commit the script to the repo.
 
 
-### 2. File Organizer
+## 2. File Organizer
 The objective of this assignment is to create a shell script that organizes files in a specified directory based on their file types.
 
-Instructions:
+**Instructions:**
 
-#### Create a Shell Script:
+### Create a Shell Script:
 Write a shell script named file_organizer.sh.
-#### Requirements:
+### Requirements:
 The script should accept a single argument, which is the directory path to be organized.
 It should organize files in the specified directory based on their file types (e.g., images, documents, videos).
-#### Organizing Files:
+### Organizing Files:
 Identify different file types (e.g., images, documents, videos) using shell commands such as file or mimetype.
 Create separate directories within the specified directory for each file type (e.g., images, documents, videos).
 Move files into their respective directories based on their file types.
