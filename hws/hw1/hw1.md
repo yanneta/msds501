@@ -6,8 +6,7 @@ The goal of this assignment is to gain proficiency in GitHub usage and to acquir
 
 
 ### 1. Authenticate to GitHub from the command line
-
-Follow detail instructions from the lecture on how to autheticate to GitHub and clone the hw1 repo. After you write the script `hw1.sh` commit the script to the repo.
+Follow detailed instructions from the lecture on how to authenticate to GitHub and clone the hw1 repo. After you write the script `hw1.sh`, commit the script to the repo.
 
 
 ### 2. File Organizer
