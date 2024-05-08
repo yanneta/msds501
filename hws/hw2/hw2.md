@@ -8,6 +8,7 @@ You will write Python code to perform basic image processing tasks on grayscale 
 - Horizontal flip
 - Removing noise
 - Blurring
+- Thresholding
 - Center crop
 
 You will be using pytest to test your code.
@@ -33,7 +34,27 @@ You should get something like this from running `pytest`:
 
 > =============================== 8 passed in 0.13s ================================
 
+Refer to`test_image_util.py` for guidense on expected results for test examples.
+
 ## Taks 1: Horizontal flip
 
-For this task, you will fill in the function `horizontal_flip` in the `image_util.py` file. You should create a new image, then create a nested for loop to iterate over all x and y values within the width and height of the image. Within the inner loop, set pixels in the copied image to the corresponding pixels copied from the original image. Finally, return the flipped image at the end of the function. Refer to`test_image_util.py` for guidense on expected results for test examples.
+For this task, you will fill in the function `horizontal_flip` in the `image_util.py` file. You should create a new image, then create a nested for loop to iterate over all x and y values within the width and height of the image. Within the inner loop, set pixels in the copied image to the corresponding pixels copied from the original image. Finally, return the flipped image at the end of the function. 
+
+
+## Task 2: Removing noise
+
+The first step in this task is to write the function `region_avg` that calculates the average pixel value within the a kxk rectangular region centered at the specified coordinates. The second step is to write the function `blur` that uses the `region_avg` function on every pixel on the input image.
+
+
+## Task 3: Blurring
+
+The first step in this task is to write the function `region_median` that calculates the median  pixel value within the a kxk rectangular region centered at the specified coordinates. The second step is to write the function `denoise` that uses the `region_median` function on every pixel on the input image.
+
+## Task 4: Thresholding
+For this task, you will fill in the function `thresholding`. Given an image, it should return a new image with just two values. Pixels above the threshold in the original image will be set to 255 (white), while pixels below the threshold will be set to 0 (black) in the new image.
+
+## Task 5: Center Crop
+For this task, you will fill in the function `center_crop`.
+Given an image, the function should return a center crop of the image with the specified size. 
+When working with NumPy matrices, to extract a submatrix of `x`, you use the following syntax: `x[start_x:end_x, start_y:end_y]`.
 
