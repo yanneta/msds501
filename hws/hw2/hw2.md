@@ -13,11 +13,13 @@ You will write Python code to perform basic image processing tasks on grayscale 
 You will be using pytest to test your code.
 
 1. Accept the invitation from the link in Canvas.
-2. `git clone` your repo. See the lecture for detailed instructions.
-3. Copy the `*jpg, *py, *ipynb from https://github.com/yanneta/msds501/tree/main/hws/hw2 to your repo.
-4. Fill the functions in image_util.py.
-5. Make sure your solutions pass the unit tests by running:
+2. Clone your repository using `git`. Refer to the lecture for detailed instructions.
+3. Copy the `*jpg`, `*py` and  `*ipynb` files from https://github.com/yanneta/msds501/tree/main/hws/hw2 to your repository.
+4. Fill the functions in `image_util.py`.
+5. Refer to `images.ipynb` for guidense on expected results on real images. 
+6. Ensure that your solutions pass the unit tests by running:
 `pytest`
+7. Commit and push your files to github.com.
 
 You should get something like this from running `pytest`:
 
@@ -30,4 +32,8 @@ You should get something like this from running `pytest`:
 > test_image_util.py ........                                                [100%]
 
 > =============================== 8 passed in 0.13s ================================
+
+## Taks 1: Horizontal flip
+
+For this task, you will fill in the function `horizontal_flip` in the `image_util.py` file. You should create a new image, then create a nested for loop to iterate over all x and y values within the width and height of the image. Within the inner loop, set pixels in the copied image to the corresponding pixels copied from the original image. Finally, return the flipped image at the end of the function. Refer to`test_image_util.py` for guidense on expected results for test examples.
 
