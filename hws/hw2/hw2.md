@@ -5,10 +5,10 @@ The goal of this assignment is to exercise your understanding of key Python comp
 
 You will write Python code to perform basic image processing tasks on grayscale images. You will implement functions to perform the following image processing tasks:
 
--- Horizontal flip
--- Removing noise
--- Blurring
--- Center crop
+- Horizontal flip
+- Removing noise
+- Blurring
+- Center crop
 
 You will be using pytest to test your code.
 
@@ -21,13 +21,13 @@ You will be using pytest to test your code.
 
 You should get something like this from running `pytest`:
 
-============================== test session starts ===============================
-platform darwin -- Python 3.11.8, pytest-7.4.0, pluggy-1.0.0
-rootdir: /Users/yinterian/teaching/computation/msds501_p/hws/hw2
-plugins: anyio-4.2.0
-collected 8 items
+> ============================== test session starts ===============================
+> platform darwin -- Python 3.11.8, pytest-7.4.0, pluggy-1.0.0
+> rootdir: /Users/yinterian/teaching/computation/msds501_p/hws/hw2
+> plugins: anyio-4.2.0
+> collected 8 items
 
-test_image_util.py ........                                                [100%]
+> test_image_util.py ........                                                [100%]
 
-=============================== 8 passed in 0.13s ================================
+> =============================== 8 passed in 0.13s ================================
 
