@@ -49,6 +49,7 @@ The first step in this task is to write the function `region_avg` that calculate
 ## Task 3: Blurring
 
 The first step in this task is to write the function `region_median` that calculates the median  pixel value within the a kxk rectangular region centered at the specified coordinates. The second step is to write the function `denoise` that uses the `region_median` function on every pixel on the input image.
+You can use the numpy function `numpy.median`.
 
 ## Task 4: Thresholding
 For this task, you will fill in the function `thresholding`. Given an image, it should return a new image with just two values. Pixels above the threshold in the original image will be set to 255 (white), while pixels below the threshold will be set to 0 (black) in the new image.
