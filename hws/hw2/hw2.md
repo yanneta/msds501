@@ -56,5 +56,5 @@ For this task, you will fill in the function `thresholding`. Given an image, it 
 ## Task 5: Center Crop
 For this task, you will fill in the function `center_crop`.
 Given an image, the function should return a center crop of the image with the specified size. 
-When working with NumPy matrices, to extract a submatrix of `x`, you use the following syntax: `x[start_x:end_x, start_y:end_y]`.
+When working with NumPy matrices, to extract a submatrix of `im`, you use the following syntax: `im[start_x:end_x, start_y:end_y]`.
 
