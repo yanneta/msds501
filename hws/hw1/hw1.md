@@ -22,8 +22,7 @@ The objective of this assignment is to create a shell script that organizes file
 ### (c) Organizing Files:
 - Identify different file types (e.g., images, documents, videos) using shell commands such as file.
 - Create separate directories within the specified directory for each file type (e.g., images, documents, videos).
-- Rename all image files with the prefix "image_" followed by the original filename.
-- Copy files into their respective directories based on their file types.
+- Copy files into their respective directories based on their file types. For image files, add the prefix "image_" to the name of the file as you copy it to the new directory.
 ### (d) Handling Existing Directories:
 - If directories for specific file types already exist, the script should move files into those directories instead of creating new ones.
 ### (e) Output:
