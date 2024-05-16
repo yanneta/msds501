@@ -14,23 +14,23 @@ You should fill the functions in  leetcode_problems.py. Your solutions should pa
 
 2. For two strings s and t, we say "t divides s" if and only if s = t + t + t + ... + t + t (i.e., t is concatenated with itself one or more times).
 
-Given two strings str1 and str2, return the largest string x such that x divides both str1 and str2.
+> Given two strings str1 and str2, return the largest string x such that x divides both str1 and str2.
 
 3. Imagine there are n students in a class, each with a different number of books they own represented by an integer array. You're also given an integer, extraBooks, which represents the additional books you have.
 
-Your task is to determine for each student, represented by an index in the array, if they will have the highest number of books in the class after receiving your extra books. Return a boolean array of length n, where each element is true if the corresponding student, after receiving the extra books, will have the highest number of books in the class, or false otherwise.
+> Your task is to determine for each student, represented by an index in the array, if they will have the highest number of books in the class after receiving your extra books. Return a boolean array of length n, where each element is true if the corresponding student, after receiving the extra books, will have the highest number of books in the class, or false otherwise.
 
-Note that it's possible for multiple students to have the highest number of books in the class, and every student can have a different number of books.
+> Note that it's possible for multiple students to have the highest number of books in the class, and every student can have a different number of books.
 
 4. Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
-You may assume that each input would have exactly one solution, and you may not use the same element twice.
+> You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
-You can return the answer in any order.
+> You can return the answer in any order.
 
 5. Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 
-Note that you must do this in-place without making a copy of the array.
+> Note that you must do this in-place without making a copy of the array.
 
 ## Hints:
 
