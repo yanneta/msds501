@@ -42,11 +42,3 @@ For problem 4, Consider a double loop on the indices of the array. Can we avoid 
 
 For problem 5, consider looping through all the elements of the array. If you find a zero, move all the remaining elements to the left.
 
-2. For problem 2 consider all substring of the smallest given string. Check if the substring divides both strings. Take the larger substring that satisfies de condition.
-
-3. It could take 4 lines of code if you use list comprenhensions. Two of this lines is to take care of the case in which books is the empty list.
-
-4. Consider a double loop on the indices of the array.
-Can you we avoid the double loop (use a dictionary in some way)?
-
-5. Consider a loop through all the elements on the array (works best from the back to the front). If you find a zero, move all the remaining elements to the left.
