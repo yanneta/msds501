@@ -26,7 +26,7 @@ You should fill the functions in  leetcode_problems.py. Your solutions should pa
 
 > You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
-> You can return the answer in any order.
+> You should return the answer in order.
 
 5. Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 
