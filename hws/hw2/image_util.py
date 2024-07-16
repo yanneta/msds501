@@ -66,7 +66,7 @@ def blur(im, k=3):
 
 def region_median(im, ic, jc, k=3):
     """
-    Calculate the average pixel value within the kxk rectangular region
+    Calculate the median pixel value within the kxk rectangular region
     centered at the specified coordinates.
 
     Args:
@@ -76,7 +76,7 @@ def region_median(im, ic, jc, k=3):
         k: size of the region
 
     Returns:
-        float: Average pixel value within the specified region.
+        float: Median pixel value within the specified region.
 
     Example:
         >>> image = [[1, 2, 3],
