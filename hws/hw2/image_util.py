@@ -129,7 +129,7 @@ def thresholding(im, threshold=100):
         >>> image = [[50, 120, 200],
                      [100, 150, 180],
                      [30, 170, 220]]
-        >>> thresholding(image, threshold=150)
+        >>> thresholding(image, threshold=100)
         array([[  0, 255, 255],
                [  0, 255, 255],
                [  0, 255, 255]], dtype=uint8)
