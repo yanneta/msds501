@@ -105,9 +105,9 @@ def denoise(im, k=3):
                      [4, 5, 6],
                      [7, 8, 9]]
         >>> denoise(image)
-        array([[5, 5, 5],
-               [5, 5, 5],
-               [5, 5, 5]], dtype=uint8)
+        array([[3, 3, 4],
+               [4, 5, 5],
+               [6, 6, 7]])
     """
     ## YOUR CODE HERE
     return im_denoised
