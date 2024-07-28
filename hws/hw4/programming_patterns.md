@@ -30,6 +30,6 @@ The values in the two lists should be returned in increasing order.
 ## Hints:
 1. This problem can be solve with two pointers in one pass throught the list.
 
-2. This is a sliding window problem. Consider all windows of length k. Keep track of max sum and update current sum. When dividing interger do float(maxsum)/k.
+2. This can be done with a nested loop. A bester solution is to consider it as a sliding window problem. Consider all windows of length k. Keep track of max sum and update current sum. When dividing interger do float(maxsum)/k.
 
 3. Create a set to keep track of elements.
